@@ -1,0 +1,69 @@
+.icerik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.girdiKismi {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+.buttons > button {
+  padding: 7px;
+}
+.inp {
+  margin-right: 10px;
+}
+h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+.cikti {
+  margin-top: 15px;
+  height: 30px;
+  width: 458px;
+  border: 1px gray solid;
+  text-align: center;
+  line-height: 25px;
+  color: black;
+  border-radius: 4px;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn {
+  width: 140px !important;
+}
+.btn-primary {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  padding: 43px !important;
+  width: 300px !important;
+}
+
+
+@media (max-width:360px) {
+  
+}
+
+@media only screen and (max-width: 375px) {
+  .girdiKismi {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    align-items: flex-start;
+  }
+  .form-control {
+    width: 200px !important;
+  }
+  .cikti {
+    width: 200px;
+  }
+}
